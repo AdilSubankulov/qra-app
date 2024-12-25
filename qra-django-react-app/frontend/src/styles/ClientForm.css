@@ -1,0 +1,88 @@
+.client-form-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 6px 18px;
+    background-color: #ffebd6;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.client-membership-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd7b0;
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+
+.full_name-input{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.tariff-select{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.visit-count-input{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.cancel-btn{
+    width: 12%;
+    padding: 12px;
+    margin: 20px 0;
+    background-color: #ff7328;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cancel-btn:hover{
+    background-color: #c34400;
+}
+
+.create-btn{
+    width: 12%;
+    padding: 12px;
+    margin: 20px 0;
+    background-color: #1fc841;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.create-btn:hover{
+    background-color: #18a034;
+}

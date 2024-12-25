@@ -1,0 +1,82 @@
+.client-detail-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 6px 18px;
+    background-color: #ffebd6;
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+}
+.membership-info{
+    gap: 20px;
+}
+.full_name-visits{
+    background-color: #ffd7b0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    width: 100%;
+}
+.membership-info-p{
+    background-color: #ffd7b0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    gap: 20px;
+}
+
+.left-content-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.right-content-body{
+    background-color: #ffd7b0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    width: 35%;
+}
+
+.info-client-tariff{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.del-add-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.delete-btn{
+    width: 12%;
+    padding: 12px;
+    margin: 20px 0;
+    background-color: #ff7328;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.delete-btn:hover {
+    background-color: #c34400;
+}
+
+.add-visit-btn{
+    width: 12%;
+    padding: 12px;
+    margin: 20px 0;
+    background-color: #1fc841;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-visit-btn:hover {
+    background-color: #18a034;
+}

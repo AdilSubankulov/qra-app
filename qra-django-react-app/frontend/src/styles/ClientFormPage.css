@@ -1,0 +1,6 @@
+.client-form-page-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}

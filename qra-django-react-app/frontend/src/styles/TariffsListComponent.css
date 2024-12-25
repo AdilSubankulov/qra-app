@@ -1,0 +1,44 @@
+.tariffslist-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 6px 18px;
+    background-color: #ffebd6;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.tariff-detail-btn {
+    display: flex;
+    background-color: #ffd7b0;
+    font-size: medium;
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border: 1.5px solid #ff8000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.tariff-detail-btn:hover{
+    background-color: #ffc285;
+}
+
+/* Контейнер для списка тарифов */
+.scroll-tarifflist-container {
+    max-height: 475px; /* Ограниченная высота для прокрутки */
+    overflow-y: auto; /* Вертикальная прокрутка */
+    border: 1px solid #e0e0e0; /* Светлая граница */
+    border-radius: 8px; /* Скруглённые углы */
+    background-color: #ffffff; /* Фон */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/* Для Firefox */
+.scroll-tarifflist-container {
+    scrollbar-width: none;
+}
